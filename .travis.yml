@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- 10.16.3
+cache: npm
+install:
+- npm install
+script:
+- npm test
+deploy:
+  provider: heroku
+  api_key:
+    secure: QfXvA+NQ0fMr+jJ3f87hZgG+uVuFz9lv75qBfkNyS/WEKuzSHvyeB07KqbqgT2c8wIz/ai673VX42khKLT3Y8JkyN+WJHFzQuvU82a5OnssPk15bF+hOZ3p01r1OqvW4XcWwEXBaK5PV1W5i4z77klluA4NTbfwMAg298lQjYWcrf8APDr3u8kc4Bqkqy5N7w/AexW3MCYwr45tMQidazus1uaxzmrH4gpgiKWyiNZjFtiC8JomzXoyRDJ/MrRXd6oV3YxHMnzi2C6m4kADiJ+Lr4Tl5IlRfd1KsstQiiCeNI3MwWDciEWmF3FkA086fNun4gn8bAi8pFxVeEOkgj8S0FPDAX3PkP5Bg9JxEiDDsBg0GqIvcdugv2wkgOQzgHPCEwQRRL5a/PN2lq+ch04r/0vkT5qkulnIAiZV4ElJTEQnpa2+Z+B7aYoQVgEbWfWAVokf6l9lKWHEMGYiZSp1ujVXWFf2anm1V4DLRBWcf1sCH2dFwHd4CzurAy/PnqEVcWVlodeJITtm0vlQOu1zE9S46XczP+rpESyiUcke9wi30Taiq2PndTuZFLeLUSUG1Kng8K5CHgfCGCHytTNdLaGXfKRs9dzEesoplJEBRF5Kw4ktkjTPxKt4w1rpyjjpXW8VrGMa6oHsFhVVehaUw93xrbjhZUNmxgHdr00c=
+  app: markdown-editor101
+  on:
+    repo: nikhildsahu/Markdown-Editor
