@@ -1,10 +1,12 @@
 
 <h1 align="center">Markdown Editor  </h1>
 <h3 align="center"> Simply Edit,View,Download,Enjoy :smiley:  <h3>
-<h4 align="center">Live @ <a href="https://nikhilsahu.ml/Markdown-Editor/">https://nikhilsahu.ml/Markdown-Editor/</a>  </h4>
+<h4 align="center">Live @ <a href="https://nikhilsahu.ml/Markdown-Editor/">https://nikhilsahu.ml/Markdown-Editor/</a>   </h4>   
 
 
-## About
+ 
+## About ![](https://travis-ci.com/nikhildsahu/Markdown-Editor.svg?branch=master) 
+
 - Simple Markdown editor With Live Preview
 - Supports all Markdown Syntax 
 - Toolbar for all Basic syntax + Undo+ Redo + Clear
