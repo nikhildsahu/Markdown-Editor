@@ -1,0 +1,23 @@
+{
+  "name": "markdown-editor",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Markdown Editor  </h1>\r <h3 align=\"center\"> Simply Edit,View,Download,Enjoy :smiley:  <h3>\r <h4 align=\"center\">Live @ <a href=\"https://nikhilsahu.ml/Markdown-Editor/\">https://nikhilsahu.ml/Markdown-Editor/</a>  </h4>",
+  "main": "script.js",
+  "dependencies": {
+    "qunit": "^2.9.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhildsahu/Markdown-Editor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikhildsahu/Markdown-Editor/issues"
+  },
+  "homepage": "https://github.com/nikhildsahu/Markdown-Editor#readme"
+}
