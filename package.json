@@ -10,7 +10,8 @@
     "mocha": "^6.2.1"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": " index.html"
   },
   "repository": {
     "type": "git",
