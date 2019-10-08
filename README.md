@@ -3,7 +3,6 @@
 <h3 align="center"> Simply Edit,View,Download,Enjoy :smiley:  <h3>
 <h4 align="center">Live @ <a href="https://nikhilsahu.ml/Markdown-Editor/">https://nikhilsahu.ml/Markdown-Editor/</a>  </h4>
 
--------------------
 
 ## About
 - Simple Markdown editor With Live Preview
