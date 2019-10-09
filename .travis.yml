@@ -20,10 +20,8 @@ notifications:
   slack:
     secure: japQ06J/hXCQIsuPkypbfvmam/Jv9ypFHMxLnVdPQWoaFMX6QcrfhJOIImkPxt1DNexVPTEUM16IjRUxHHUe38oBS9TFEQ2BVoa1hMJSj31RAagYeGmG4brhkP+b6h+54Z5/QcrxBTKbpAwQSjlWbG5eXLiH5dRABgn5OG0TyO849IVQKne0LCTsbELfyTqv7F4i/AL/L7d/OOdoWl4oa7o1zBTtrbg7s9i12UElsMkjlBP1KTW+tmLEHIEzZhm3zUWi7ZzZloglCyzWLwRCMiNjCHWtsgfaEmIXQqa3z6eO3/x+Pz3/6E/s7IqDzRmP+KQ7KLobJJZ5Pwtn9O7YOkitnOsQz/JpESCBtfdFUy5attr/MXhu7Mo7f7hfnVZhfv82uXAzgobHlDGhuwrPsE+rVR2yuNXp9x0IYXlSPDBz86mQXoEHtqTi6diXF9edihDO96/gDVoqaKwcJMq8zDddrWjGCiuNavGygwvzCIfm7F5EFL0dH5dNbMBrInb0p9wmkqWEP9rCZmzBkuIg5qfG4UodMI71SBb9w5vBoVHTCtjltsHdt7mIaYUaF9g3aJJd9M4nS9pZCNGP2a45oWWuoI6lANLg/Kar6KdB70W5abb77MHTct2xcJfcPOBDBiaq0np/f6HCYK+d4JcFmdh0vq29/nkDUUnIRQ5w1zE=
   email:
-     recipients:  
     - stanleeniko@gmail.com
     - jueejain99@gmail.com
     - manasinamjoshi19@gmail.com
-     on_success: always  
-     on_failure: always
+   
     
