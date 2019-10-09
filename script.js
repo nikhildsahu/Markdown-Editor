@@ -5,7 +5,11 @@ window.mobilecheck = function() {
   return check;
 
 };
-var check= window.mobilecheck();
+
+function check()
+{
+  console.log("checking for mobile");
+  var check= window.mobilecheck();
 
 if(check)
 {
@@ -20,8 +24,12 @@ if(check)
   msg.style.display= "block";
 
 }
-
-  var editor = ace.edit("editor");
+editorStart()
+}
+var editor = ace.edit("editor");
+function editorStart()
+{
+  
 
   editor.getSession().setMode("ace/mode/html");
   editor.setFontSize("15px");
@@ -36,6 +44,8 @@ if(check)
  document.getElementById('md').innerHTML =
  marked(editor.getValue());
 
+}
+  
 
   editor.session.on('change', function(delta) {
     // delta.start, delta.end, delta.lines, delta.action
