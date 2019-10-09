@@ -41,7 +41,7 @@
                 <option value="markup" selected>Markdown</option>
               </select>
               </div>
-              <div class="toolbar">
+              <div class="toolbar" id="toolbar">
                 <ul class="ul" >
                   
                     <li class="li"> <i class="fas fa-eraser" onclick="insertClear()"></i></li>
@@ -63,14 +63,14 @@
     
             <div id="editor"></div>
               <textarea  id="sample" > # Hello World &#13;&#10; ----------------------- &#13;&#10; ### Type  Your Mark down Here&#13;&#10;##### Use Clear tool from toolbar to Clear this All &#13;&#10; -----------------------&#13;&#10; #### This is Markdown Editor &#13;&#10; - Use Above toolbar for ease &#13;&#10; - You can also download your Markdown files from  here  &#13;&#10;&#13;&#10;### Want Some help with Markdown &#13;&#10;#### Here is a Quick [Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) for you&#13;&#10;</textarea>
-            
+              <h3 id="msg" style="text-align: center ; display: none ;">Sorry ,Please prefer using this on Desktop  <i class="far fa-grimace"></i> </h3>
              
         
           </div>
           
           </div>
         <div class="col-12 col-md-6 col-sm-12 " >
-            <div class="window" id="viewcode">
+            <div class="window" id="preview">
                 <div class="window-header">
                     <div class="action-buttons"></div>
                   <a class="language"  onclick='download_file("readme.md", dynamic_text())'>Download <i class="fas fa-download" ></i></a>
@@ -82,7 +82,7 @@
         
       
     </div>
-    
+   
      
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
    
