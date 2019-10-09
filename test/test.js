@@ -1,8 +1,33 @@
+/*import { testing } from 'script';
+let val = testing();
+*/
 var assert = require('assert');
-describe('Array', function() {
-  describe('#indexOf()', function() {
-    it('should return -1 when the value is not present', function() {
-      assert.equal([1, 2, 3].indexOf(4), -1);
+describe('Editor', function() {
+  describe('Editor', function() {
+    it('input is text', function() {
+    
+      assert.equal(isNaN(0), false);
+    });
+  });
+});
+
+var assert = require('assert');
+describe('EmptyEditor', function() {
+  describe('Editor', function() {
+    it('editor is not empty', function() {
+    
+      assert.equal(isNaN(0), false);
+    });
+  });
+});
+
+
+var assert = require('assert');
+describe('IsBold', function() {
+  describe('Editor', function() {
+    it('original input is not bold', function() {
+    
+      assert.equal(isNaN(0), false);
     });
   });
 });
