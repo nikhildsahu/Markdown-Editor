@@ -39,8 +39,6 @@ function editorStart()
     maxLines: 20
   });
 
-
- 
  document.getElementById('md').innerHTML =
  marked(editor.getValue());
 
