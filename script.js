@@ -14,6 +14,8 @@
  
  document.getElementById('md').innerHTML =
  marked(editor.getValue());
+
+
   editor.session.on('change', function(delta) {
     // delta.start, delta.end, delta.lines, delta.action
     document.getElementById('md').innerHTML =
@@ -86,7 +88,7 @@ function insertRedo()
 editor.redo();
 }
 
-// download_file
+
 function dynamic_text() {
   var x = document.getElementById('md');
   var s= x.innerHTML;
