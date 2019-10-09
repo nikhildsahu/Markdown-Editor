@@ -24,6 +24,6 @@ notifications:
     - stanleeniko@gmail.com
     - jueejain99@gmail.com
     - manasinamjoshi19@gmail.com
-    on_success: always  
-    on_failure: always
+     on_success: always  
+     on_failure: always
     
