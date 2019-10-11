@@ -3,15 +3,15 @@
 <h3 align="center"> Simply Edit,View,Download,Enjoy :smiley:  <h3>
 <h4 align="center">Live @ <a href="https://nikhilsahu.ml/Markdown-Editor/">https://nikhilsahu.ml/Markdown-Editor/</a>   </h4>   
 
-![](https://travis-ci.com/nikhildsahu/Markdown-Editor.svg?branch=master) 
+
 
  
-## About 
+## About  ![](https://travis-ci.com/nikhildsahu/Markdown-Editor.svg?branch=master) 
 - Simple Markdown editor With Live Preview
 - Supports all Markdown Syntax 
 - Toolbar for all Basic syntax + Undo+ Redo + Clear
 - Easily Download md files , use anywhere :smile:
-- This Readme is made with editor only.
+- This Readme is made with this editor only.
 
 ## How
 - Using [Ace Editor](https://ace.c9.io/) for Editor Window .
