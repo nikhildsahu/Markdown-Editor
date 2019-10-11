@@ -6,7 +6,7 @@
 
 
  
-## About  ![](https://travis-ci.com/nikhildsahu/Markdown-Editor.svg?branch=master) 
+## About  [![](https://travis-ci.com/nikhildsahu/Markdown-Editor.svg?branch=master)](https://travis-ci.com/nikhildsahu/Markdown-Editor.svg?branch=master)
 - Simple Markdown editor With Live Preview
 - Supports all Markdown Syntax 
 - Toolbar for all Basic syntax + Undo+ Redo + Clear
