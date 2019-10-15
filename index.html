@@ -74,11 +74,12 @@ if(check)
               <div class="toolbar" id="toolbar">
                 <ul class="ul" >
                   
-                    <li class="li"> <i class="fas fa-eraser" onclick="insertClear()"></i></li>
-                    <li class="li"> <i class="fas fa-undo" onclick="insertUndo()"></i></li>
-                    <li class="li"> <i class="fas fa-redo" onclick="insertRedo()"></i></li >
+               <li class="li"> <i class="fas fa-eraser" onclick="insertClear()"></i></li>
+                <li class="li"> <i class="fas fa-undo" onclick="insertUndo()"></i></li>
+               <li class="li"> <i class="fas fa-redo" onclick="insertRedo()"></i></li >
                <li class="li"><i class="fas fa-bold" onclick="insertBold()"></i> </li>
-               <li class="li"> <i class="fas fa-italic" onclick="insertItalic()"></i> </li></li>
+               <li class="li"> <i class="fas fa-italic" onclick="insertItalic()"></i> </li>
+               <li class="li"> <i class="fas fa-strikethrough" onclick="insertStrike()"></i> </li >
                <li class="li"> <i class="fas fa-link" onclick="insertLink()"></i> </li >
                <li class="li"> <i class="fas fa-quote-left" onclick="insertQoute()"></i></li>
                <li class="li"> <i class="fas fa-code" onclick="insertCode()"></i></li>
@@ -92,7 +93,7 @@ if(check)
             </div>
     
             <div id="editor"></div>
-              <textarea  id="sample" > # Hello World &#13;&#10; ----------------------- &#13;&#10; ### Type  Your Mark down Here&#13;&#10;##### Use Clear tool from toolbar to Clear this All &#13;&#10; -----------------------&#13;&#10; #### This is Markdown Editor &#13;&#10; - Use Above toolbar for ease &#13;&#10; - You can also download your Markdown files from  here  &#13;&#10;&#13;&#10;### Want Some help with Markdown &#13;&#10;#### Here is a Quick [Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) for you&#13;&#10;</textarea>
+              <textarea  id="sample" > # Hello World &#13;&#10; ----------------------- &#13;&#10; ## Type  Your Mark down Here&#13;&#10;Use Clear tool from toolbar to Clear this All&#13;&#10; &#13;&#10; -----------------------&#13;&#10; ####  Markdown Editor &#13;&#10; - Use Above toolbar for ease &#13;&#10; - You can also download your Markdown files from  here  &#13;&#10;&#13;&#10;### Want Some help with Markdown &#13;&#10;#### Here is a Quick [Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) for you&#13;&#10;</textarea>
               <h3 id="msg" style="text-align: center ; display: none ;">Sorry ,Please prefer using this on Desktop  <i class="far fa-grimace"></i> </h3>
              
         

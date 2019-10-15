@@ -47,7 +47,7 @@ color: DimGrey;
 .window {
   margin-top: 10px;
   width:100%;
-  background: GhostWhite;
+  background: #FFFFFF;
   border-radius: 0.3rem;
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
   overflow: hidden;

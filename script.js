@@ -32,6 +32,10 @@ function insertItalic()
 {
   editor.insert("*italicized text* ");
 }
+function insertStrike()
+{
+  editor.insert("~~ Strikethrough ~~ ");
+}
 function insertLink()
 {
   editor.insert("[title](https://www.example.com) ");
