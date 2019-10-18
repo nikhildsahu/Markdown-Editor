@@ -18,7 +18,7 @@ var editor = ace.edit("editor");
   
 
   editor.session.on('change', function(delta) {
-    // delta.start, delta.end, delta.lines, delta.action
+    
     document.getElementById('md').innerHTML =
     marked(editor.getValue());
   
