@@ -1,7 +1,7 @@
 
 <h1 align="center">Markdown Editor  </h1>
 <h3 align="center"> Simply Edit,View,Download,Enjoy :smiley:  <h3>
-<h4 align="center">Live @ <a href="https://nikhilsahu.ml/Markdown-Editor/">https://nikhilsahu.ml/Markdown-Editor/</a>   </h4>   
+<h4 align="center">Live @ <a href="https://nikhilsahu.me/Markdown-Editor/">https://nikhilsahu.me/Markdown-Editor/</a>   </h4>   
 
 
 
@@ -23,7 +23,7 @@
 - Feel free to add issues and submit patches.
 
 ## Author 
- [Nikhil Sahu](https://nikhilsahu.ml/) - [nikhildsahu](https://github.com/nikhildsahu) 
+ [Nikhil Sahu](https://nikhilsahu.me/) - [nikhildsahu](https://github.com/nikhildsahu) 
 
 
 
