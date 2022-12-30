@@ -7,7 +7,7 @@
     "qunit": "^2.9.3"
   },
   "devDependencies": {
-    "mocha": "^6.2.1"
+    "mocha": "^10.2.0"
   },
   "scripts": {
     "test": "mocha",
